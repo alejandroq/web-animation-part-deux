@@ -26,6 +26,7 @@ import { MaxCssPageComponent } from './pages/max/max-css-page/max-css-page.compo
 import { MaxLabPageComponent } from './pages/max/max-lab-page/max-lab-page.component';
 import { TweenLiteLabPageComponent } from './pages/tween/tween-lite-lab-page/tween-lite-lab-page.component';
 import { TimelineLiteLabComponent } from './pages/timeline/timeline-lite-lab/timeline-lite-lab.component';
+import { PluginsPageComponent } from './pages/plugins-page/plugins-page.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { TimelineLiteLabComponent } from './pages/timeline/timeline-lite-lab/tim
     MaxCssPageComponent,
     MaxLabPageComponent,
     TweenLiteLabPageComponent,
-    TimelineLiteLabComponent
+    TimelineLiteLabComponent,
+    PluginsPageComponent
   ],
   imports: [
     BrowserModule,

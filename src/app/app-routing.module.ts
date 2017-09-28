@@ -25,6 +25,8 @@ import { StaggerComponent } from './pages/max/stagger/stagger.component';
 import { YoYoComponent } from './pages/max/yo-yo/yo-yo.component';
 import { MaxLabPageComponent } from './pages/max/max-lab-page/max-lab-page.component';
 
+import { PluginsPageComponent } from './pages/plugins-page/plugins-page.component';
+
 const routes: Routes = [
   { path: '', redirectTo: '/introduction', pathMatch: 'full' },
   { path: 'introduction',  component: IntroductionPageComponent },
@@ -57,7 +59,8 @@ const routes: Routes = [
       { path: 'yo-yo',  component: MaxLabPageComponent },
       { path: 'lab',  component: YoYoComponent }
     ]
-  }
+  },
+  { path: 'plugins',  component: PluginsPageComponent }
 ];
 
 @NgModule({
