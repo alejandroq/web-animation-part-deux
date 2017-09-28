@@ -1,0 +1,43 @@
+<h3>Tween Basics</h3>
+
+<code>
+    let tween = TweenLite.[method](target(s), duration, properties);
+</code>
+
+<h4>Method</h4>
+
+<p>Defines how the animation starts. Choices are .from, .to, and .fromTo</p>
+
+<h4>Target(s)</h4>
+
+<ul class="list-unstyled">
+    <li>String will default to getElementById if string starts with '#', otherwise will use querySelectorAll</li>
+    <li>If you have jQuery installed as well, will use that as the query seelctor</li>
+    <li>Also accepts JavaScript DOM elements</li>
+</ul>
+
+<h4>Duration</h4>
+
+<p>How long will the animation last? Usually in seconds.</p>
+
+<h4>Properties</h4>
+
+<p>Can either be the properties to be animated, a number of other named options, or callbacks.</p>
+
+<h5>Notable Options include:</h5>
+
+<ul>
+    <li>delay: Add a delay to when the animation starts</li>
+    <li>ease: The easing method to use</li>
+    <li>paused: Boolean if the animation should start on creation</li>
+</ul>
+
+<h5>Callbacks</h5>
+
+<ul>
+    <li>onComplete</li>
+    <li>onStart</li>
+    <li>onUpdate</li>
+</ul>
+
+<a routerLink="/tween/method" routerLinkActive="active" class="btn btn-primary">Method <span class="sr-only">(current)</span></a>
